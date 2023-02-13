@@ -2,7 +2,7 @@
 import { describe, it } from 'vitest';
 import { render, screen } from '@testing-library/react';
 import { MemoryRouter } from 'react-router-dom';
-import { App, WrappedApp } from '../App';
+import { App, WrappedApp } from './App';
 
 describe('App', () => {
   it('render hello world', () => {
